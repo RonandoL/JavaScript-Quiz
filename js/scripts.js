@@ -43,7 +43,6 @@ function buildList(array) {
 }
 
 html = "You got " + countRight + " questions right.";
-
 html += '<h2>You got these questions correct:</h2>';
 html += buildList(questionsRight);
 html += '<h2>You got these questions wrong:</h2>';
